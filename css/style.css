@@ -1,6 +1,8 @@
 body {
 	font-family: 'Raleway', sans-serif;
 font-family: 'Roboto', sans-serif;
+color: #434455;
+background-color: #FFFFFF;
 }
 
 .l-logo {font-family: "Raleway",  sans-serif;
@@ -32,6 +34,7 @@ color: #2e2f42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 color: #434455;
+font-style: normal
 }
 .address:hover, .address:focus{color:404bbf;}
 
@@ -39,11 +42,11 @@ color: #434455;
 
 .hero-h {font-size: 56px;
     line-height: 1.07;
-    text-align;
+    text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;} 
 
-.button {
+.button { cursor: pointer;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
 font-weight: 500;
